@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "Ilkins Calorie Tracer",
+    "slug": "ilkins-calorie-tracer",
+    "version": "0.5.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "plugins": [
+      "expo-apple-authentication",
+      "expo-secure-store"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ilkinellada.calorietracer",
+      "usesAppleSignIn": true
+    },
+    "icon": "./assets/icon.png"
+  }
+}

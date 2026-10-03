@@ -1,0 +1,139 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+node_modules/
+.expo/
+dist/
+coverage/
+# ============================================================
+# Environment & Secrets
+# ============================================================
+.env
+.env.*
+!.env.example
+
+*.pem
+*.key
+*.p12
+*.mobileprovision
+
+# ============================================================
+# Python / FastAPI Backend
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+.venv/
+venv/
+env/
+ENV/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+*.egg-info/
+dist/
+build/
+
+# ============================================================
+# Database / Local Data
+# ============================================================
+*.db
+*.sqlite
+*.sqlite3
+
+# Local database dumps
+*.sql
+*.dump
+
+# ============================================================
+# Logs
+# ============================================================
+*.log
+logs/
+
+# ============================================================
+# macOS
+# ============================================================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ============================================================
+# Node / JavaScript (if used by frontend/tools)
+# ============================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+dist/
+build/
+.next/
+.nuxt/
+.cache/
+
+# ============================================================
+# iOS / Xcode
+# ============================================================
+DerivedData/
+build/
+
+*.xcuserstate
+*.xcscmblueprint
+xcuserdata/
+
+# Xcode user-specific files
+*.moved-aside
+*.pbxuser
+
+# Swift Package Manager
+.build/
+Packages/
+
+# ============================================================
+# Fastlane
+# ============================================================
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# Don't ignore Fastlane configuration
+!fastlane/Fastfile
+!fastlane/Appfile
+!fastlane/Deliverfile
+!fastlane/Matchfile
+
+# ============================================================
+# IDEs
+# ============================================================
+.idea/
+.vscode/
+
+# Keep VS Code project recommendations/settings if desired
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# ============================================================
+# Temporary files
+# ============================================================
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# ============================================================
+# OS / editor metadata
+# ============================================================
+Thumbs.db
+.DS_Store

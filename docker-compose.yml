@@ -1,0 +1,14 @@
+services:
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: calorie_tracer
+      POSTGRES_USER: calorie
+      POSTGRES_PASSWORD: calorie
+    ports:
+      - "5432:5432"
+    volumes:
+      - calorie-db:/var/lib/postgresql/data
+
+volumes:
+  calorie-db:
